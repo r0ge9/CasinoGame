@@ -1,0 +1,13 @@
+# Directories
+out/*
+bin/*
+lib/*
+scratch/*
+
+# File Types
+*.so
+*.o
+
+# Backup files
+*~
+*/*~

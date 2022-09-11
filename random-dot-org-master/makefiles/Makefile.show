@@ -1,0 +1,30 @@
+show:
+	@echo "=============================================================="
+	@echo "FLAGS:"
+	@echo "    CFLAGS = "$(CFLAGS)
+	@echo "  CXXFLAGS = "$(CXXFLAGS)
+	@echo "   SOFLAGS = "$(SOFLAGS)
+	@echo "   LDFLAGS = "$(LDFLAGS)
+	@echo "      LIBS = "$(LIBS)
+	@echo "=============================================================="
+	@echo "COMPILE:"
+	@echo "         CXX = "$(CXX)
+	@echo "          LD = "$(LD) 
+	@echo "  COMPILE.cc = "$(COMPILE.cc)
+	@echo "=============================================================="
+	@echo "DIRECTORIES:"
+	@echo "   LOCAL = "$(LOCAL)
+	@echo "  INCDIR = "$(INCDIR)
+	@echo "  SRCDIR = "$(SRCDIR)
+	@echo "  OUTDIR = "$(OUTDIR)
+	@echo "  BINDIR = "$(BINDIR)
+	@echo "  LIBDIR = "$(LIBDIR)
+	@echo "  DOCDIR = "$(DOCDIR)
+	@echo "  SPTDIR = "$(SPTDIR)
+	@echo "=============================================================="
+	@echo "OBJECTS: "
+	@echo "   HEADERS = "$(HEADERS)
+	@echo "   SOURCES = "$(SOURCES)
+	@echo "   OBJECTS = "$(OBJECTS)
+	@echo "  PROGOBJS = "$(PROGOBJS)
+	@echo "=============================================================="

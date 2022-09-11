@@ -1,0 +1,19 @@
+helpmsg:
+	@echo "*** Type 'make help' to see available make targets"
+
+help:
+	@echo "=============================================================="
+	@echo "COMMON TARGETS:     FUNCTION:"
+	@echo "  make              - compile & link all libs & executables"
+	@echo "  make install      - soft-link executables to "$(INSTALLDIR)
+	@echo "  make clean        - delete all libs and execs"
+	@echo "  make doc          - generate doxygen documentation"
+	@echo "  make tar          - bundle this code into a gzipped-tarball"
+	@echo "  make show         - show the flags, and files used"
+	@echo "=============================================================="
+	@echo "OTHER TARGETS:      FUNCTION:"
+	@echo "  make dirs         - create directory structure"
+	@echo "  make objs         - compile object libraries"
+	@echo "  make lib          - link objs & create shared object library"
+	@echo "  make progs        - compile & link executables"
+	@echo "=============================================================="

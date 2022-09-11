@@ -1,0 +1,6 @@
+readme:
+	@-if [ ! -f README.md ]; \
+	then echo "*** Creating generic "README.md; \
+		touch README; \
+		echo "# Help for "$(LIBNAME)" ... " >> README.md; \
+	fi;
